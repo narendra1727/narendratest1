@@ -9,12 +9,33 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Type a wod in below box</h1>
-    <input type="text" id="txt" >
-    <div id="output"></div>
-
-    <button id="btn">Click on Button to find the Length</button>
-    <script src="script.js"></script>
-
+    <section>
+        <!-- Buttons are created-->
+        <button id="all">All Employees</button>
+        <button id="male">Male Employees</button>
+        <button id="female">Female employees</button>
+        <br><br>
+        <!-- Search Input Field-->
+        <form action="">
+            <input type="search" placeholder="Search Here" class="inputfield" id="search-box" / >
+        </form>
+        
+        <br><br>
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Ipaddress</th>
+                </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+</section>
+<script src="script.js"></script>
 </body>
 </html>
